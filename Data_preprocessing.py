@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Chargement des données
-data = pd.read_csv('employee_performance.csv')
+data = pd.read_excel('employee_performance.xls', engine='xlrd')
 
 # Prétraitement des données
 data = data.drop(columns=['employee_id', 'employee_name'])  # Suppression des colonnes non numériques
