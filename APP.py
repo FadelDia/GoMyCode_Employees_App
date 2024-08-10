@@ -10,7 +10,7 @@ def load_models_and_scaler():
     global model_performance, model_absences, scaler, label_encoder
 
     # Charger les données pour scaler (si nécessaire)
-    data = pd.read_csv('employee_performance.csv')
+    data = pd.read_excel('employee_performance.xls', engine='xlrd')
     X = data[['hours_worked', 'training_hours', 'previous_performance', 'seniority', 'gender']]
     scaler = StandardScaler()
     scaler.fit(X)
