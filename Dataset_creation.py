@@ -32,7 +32,7 @@ data = pd.DataFrame({
     'gender': genders
 })
 
-# Sauvegarde dans un fichier CSV
-data.to_csv('employee_performance.csv', index=False)
+# Sauvegarde dans un fichier Excel
+data.to_excel('employee_performance.xls', index=False, engine='xlwt')
 
-print("Dataset créé et sauvegardé sous 'employee_performance.csv'")
+print("Dataset créé et sauvegardé sous 'employee_performance.xls'")
