@@ -4,3 +4,5 @@ numpy
 scikit-learn
 opencv-python-headless
 faker
+xlrd
+openpyxl
